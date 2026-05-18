@@ -4,7 +4,12 @@ C:/Users/gigab/Project-Euler/cpp/build/CMakeFiles/problem_0002.dir
 C:/Users/gigab/Project-Euler/cpp/build/CMakeFiles/problem_0003.dir
 C:/Users/gigab/Project-Euler/cpp/build/CMakeFiles/problem_0004.dir
 C:/Users/gigab/Project-Euler/cpp/build/CMakeFiles/problem_0005.dir
+C:/Users/gigab/Project-Euler/cpp/build/CMakeFiles/problem_0008.dir
+C:/Users/gigab/Project-Euler/cpp/build/CMakeFiles/problem_0031.dir
+C:/Users/gigab/Project-Euler/cpp/build/CMakeFiles/problem_0039.dir
+C:/Users/gigab/Project-Euler/cpp/build/CMakeFiles/problem_0077.dir
 C:/Users/gigab/Project-Euler/cpp/build/CMakeFiles/problem_0081.dir
 C:/Users/gigab/Project-Euler/cpp/build/CMakeFiles/problem_0098.dir
+C:/Users/gigab/Project-Euler/cpp/build/CMakeFiles/problem_0895.dir
 C:/Users/gigab/Project-Euler/cpp/build/CMakeFiles/edit_cache.dir
 C:/Users/gigab/Project-Euler/cpp/build/CMakeFiles/rebuild_cache.dir

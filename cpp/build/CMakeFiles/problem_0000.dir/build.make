@@ -33,10 +33,10 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\gigab\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\cmake\data\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\gigab\Project-Euler\.venv\Lib\site-packages\cmake\data\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\gigab\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\cmake\data\bin\cmake.exe -E rm -f
+RM = C:\Users\gigab\Project-Euler\.venv\Lib\site-packages\cmake\data\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -92,7 +92,7 @@ problem_0000.exe: CMakeFiles\problem_0000.dir\problems\problem_0000\main.cpp.obj
 problem_0000.exe: CMakeFiles\problem_0000.dir\build.make
 problem_0000.exe: CMakeFiles\problem_0000.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable problem_0000.exe"
-	C:\Users\gigab\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\cmake\data\bin\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\problem_0000.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2022\BUILDT~1\VC\Tools\MSVC\1444~1.352\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\problem_0000.dir\objects1.rsp @<<
+	C:\Users\gigab\Project-Euler\.venv\Lib\site-packages\cmake\data\bin\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\problem_0000.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2022\BUILDT~1\VC\Tools\MSVC\1444~1.352\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\problem_0000.dir\objects1.rsp @<<
  /out:problem_0000.exe /implib:problem_0000.lib /pdb:C:\Users\gigab\Project-Euler\cpp\build\problem_0000.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  
 <<
 

@@ -5,12 +5,12 @@
 namespace {
 
 std::uint64_t solve() {
-    // add sum of first 557,000 odd square numbers
+    // add sum of first 933,000 odd square numbers
     std::uint64_t sum = 0;
     std::uint64_t square = 0;
-    for (std::uint64_t i = 1; i <= 557000; i += 1) {
+    for (std::uint64_t i = 1; i <= 720000; i += 1) {
         square = i * i;
-        if (square % 2 == 1) {
+        if (square % 2 == 1) { // check if the square is odd
             sum += square;
         }
     }

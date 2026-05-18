@@ -34,10 +34,10 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\gigab\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\cmake\data\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\gigab\Project-Euler\.venv\Lib\site-packages\cmake\data\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\gigab\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\cmake\data\bin\cmake.exe -E rm -f
+RM = C:\Users\gigab\Project-Euler\.venv\Lib\site-packages\cmake\data\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -58,8 +58,13 @@ all: CMakeFiles\problem_0002.dir\all
 all: CMakeFiles\problem_0003.dir\all
 all: CMakeFiles\problem_0004.dir\all
 all: CMakeFiles\problem_0005.dir\all
+all: CMakeFiles\problem_0008.dir\all
+all: CMakeFiles\problem_0031.dir\all
+all: CMakeFiles\problem_0039.dir\all
+all: CMakeFiles\problem_0077.dir\all
 all: CMakeFiles\problem_0081.dir\all
 all: CMakeFiles\problem_0098.dir\all
+all: CMakeFiles\problem_0895.dir\all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -69,8 +74,13 @@ codegen: CMakeFiles\problem_0002.dir\codegen
 codegen: CMakeFiles\problem_0003.dir\codegen
 codegen: CMakeFiles\problem_0004.dir\codegen
 codegen: CMakeFiles\problem_0005.dir\codegen
+codegen: CMakeFiles\problem_0008.dir\codegen
+codegen: CMakeFiles\problem_0031.dir\codegen
+codegen: CMakeFiles\problem_0039.dir\codegen
+codegen: CMakeFiles\problem_0077.dir\codegen
 codegen: CMakeFiles\problem_0081.dir\codegen
 codegen: CMakeFiles\problem_0098.dir\codegen
+codegen: CMakeFiles\problem_0895.dir\codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -84,8 +94,13 @@ clean: CMakeFiles\problem_0002.dir\clean
 clean: CMakeFiles\problem_0003.dir\clean
 clean: CMakeFiles\problem_0004.dir\clean
 clean: CMakeFiles\problem_0005.dir\clean
+clean: CMakeFiles\problem_0008.dir\clean
+clean: CMakeFiles\problem_0031.dir\clean
+clean: CMakeFiles\problem_0039.dir\clean
+clean: CMakeFiles\problem_0077.dir\clean
 clean: CMakeFiles\problem_0081.dir\clean
 clean: CMakeFiles\problem_0098.dir\clean
+clean: CMakeFiles\problem_0895.dir\clean
 .PHONY : clean
 
 #=============================================================================
@@ -281,13 +296,141 @@ CMakeFiles\problem_0005.dir\clean:
 .PHONY : CMakeFiles\problem_0005.dir\clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/problem_0008.dir
+
+# All Build rule for target.
+CMakeFiles\problem_0008.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0008.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0008.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0008.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0008.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles --progress-num=13,14 "Built target problem_0008"
+.PHONY : CMakeFiles\problem_0008.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\problem_0008.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\problem_0008.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles 0
+.PHONY : CMakeFiles\problem_0008.dir\rule
+
+# Convenience name for target.
+problem_0008: CMakeFiles\problem_0008.dir\rule
+.PHONY : problem_0008
+
+# codegen rule for target.
+CMakeFiles\problem_0008.dir\codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0008.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0008.dir\codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles --progress-num=13,14 "Finished codegen for target problem_0008"
+.PHONY : CMakeFiles\problem_0008.dir\codegen
+
+# clean rule for target.
+CMakeFiles\problem_0008.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0008.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0008.dir\clean
+.PHONY : CMakeFiles\problem_0008.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/problem_0031.dir
+
+# All Build rule for target.
+CMakeFiles\problem_0031.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0031.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0031.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0031.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0031.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles --progress-num=15,16 "Built target problem_0031"
+.PHONY : CMakeFiles\problem_0031.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\problem_0031.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\problem_0031.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles 0
+.PHONY : CMakeFiles\problem_0031.dir\rule
+
+# Convenience name for target.
+problem_0031: CMakeFiles\problem_0031.dir\rule
+.PHONY : problem_0031
+
+# codegen rule for target.
+CMakeFiles\problem_0031.dir\codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0031.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0031.dir\codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles --progress-num=15,16 "Finished codegen for target problem_0031"
+.PHONY : CMakeFiles\problem_0031.dir\codegen
+
+# clean rule for target.
+CMakeFiles\problem_0031.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0031.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0031.dir\clean
+.PHONY : CMakeFiles\problem_0031.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/problem_0039.dir
+
+# All Build rule for target.
+CMakeFiles\problem_0039.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0039.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0039.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0039.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0039.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles --progress-num=17,18 "Built target problem_0039"
+.PHONY : CMakeFiles\problem_0039.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\problem_0039.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\problem_0039.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles 0
+.PHONY : CMakeFiles\problem_0039.dir\rule
+
+# Convenience name for target.
+problem_0039: CMakeFiles\problem_0039.dir\rule
+.PHONY : problem_0039
+
+# codegen rule for target.
+CMakeFiles\problem_0039.dir\codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0039.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0039.dir\codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles --progress-num=17,18 "Finished codegen for target problem_0039"
+.PHONY : CMakeFiles\problem_0039.dir\codegen
+
+# clean rule for target.
+CMakeFiles\problem_0039.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0039.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0039.dir\clean
+.PHONY : CMakeFiles\problem_0039.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/problem_0077.dir
+
+# All Build rule for target.
+CMakeFiles\problem_0077.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0077.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0077.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0077.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0077.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles --progress-num=19,20 "Built target problem_0077"
+.PHONY : CMakeFiles\problem_0077.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\problem_0077.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\problem_0077.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles 0
+.PHONY : CMakeFiles\problem_0077.dir\rule
+
+# Convenience name for target.
+problem_0077: CMakeFiles\problem_0077.dir\rule
+.PHONY : problem_0077
+
+# codegen rule for target.
+CMakeFiles\problem_0077.dir\codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0077.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0077.dir\codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles --progress-num=19,20 "Finished codegen for target problem_0077"
+.PHONY : CMakeFiles\problem_0077.dir\codegen
+
+# clean rule for target.
+CMakeFiles\problem_0077.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0077.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0077.dir\clean
+.PHONY : CMakeFiles\problem_0077.dir\clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/problem_0081.dir
 
 # All Build rule for target.
 CMakeFiles\problem_0081.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0081.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0081.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0081.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0081.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles --progress-num=13,14 "Built target problem_0081"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles --progress-num=21,22 "Built target problem_0081"
 .PHONY : CMakeFiles\problem_0081.dir\all
 
 # Build rule for subdir invocation for target.
@@ -304,7 +447,7 @@ problem_0081: CMakeFiles\problem_0081.dir\rule
 # codegen rule for target.
 CMakeFiles\problem_0081.dir\codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0081.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0081.dir\codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles --progress-num=13,14 "Finished codegen for target problem_0081"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles --progress-num=21,22 "Finished codegen for target problem_0081"
 .PHONY : CMakeFiles\problem_0081.dir\codegen
 
 # clean rule for target.
@@ -319,7 +462,7 @@ CMakeFiles\problem_0081.dir\clean:
 CMakeFiles\problem_0098.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0098.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0098.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0098.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0098.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles --progress-num=15,16 "Built target problem_0098"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles --progress-num=23,24 "Built target problem_0098"
 .PHONY : CMakeFiles\problem_0098.dir\all
 
 # Build rule for subdir invocation for target.
@@ -336,13 +479,45 @@ problem_0098: CMakeFiles\problem_0098.dir\rule
 # codegen rule for target.
 CMakeFiles\problem_0098.dir\codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0098.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0098.dir\codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles --progress-num=15,16 "Finished codegen for target problem_0098"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles --progress-num=23,24 "Finished codegen for target problem_0098"
 .PHONY : CMakeFiles\problem_0098.dir\codegen
 
 # clean rule for target.
 CMakeFiles\problem_0098.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0098.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0098.dir\clean
 .PHONY : CMakeFiles\problem_0098.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/problem_0895.dir
+
+# All Build rule for target.
+CMakeFiles\problem_0895.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0895.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0895.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0895.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0895.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles --progress-num=25,26 "Built target problem_0895"
+.PHONY : CMakeFiles\problem_0895.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\problem_0895.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\problem_0895.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles 0
+.PHONY : CMakeFiles\problem_0895.dir\rule
+
+# Convenience name for target.
+problem_0895: CMakeFiles\problem_0895.dir\rule
+.PHONY : problem_0895
+
+# codegen rule for target.
+CMakeFiles\problem_0895.dir\codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0895.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0895.dir\codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gigab\Project-Euler\cpp\build\CMakeFiles --progress-num=25,26 "Finished codegen for target problem_0895"
+.PHONY : CMakeFiles\problem_0895.dir\codegen
+
+# clean rule for target.
+CMakeFiles\problem_0895.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0895.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0895.dir\clean
+.PHONY : CMakeFiles\problem_0895.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

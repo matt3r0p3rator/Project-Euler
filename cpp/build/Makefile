@@ -37,10 +37,10 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\gigab\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\cmake\data\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\gigab\Project-Euler\.venv\Lib\site-packages\cmake\data\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\gigab\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\cmake\data\bin\cmake.exe -E rm -f
+RM = C:\Users\gigab\Project-Euler\.venv\Lib\site-packages\cmake\data\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	C:\Users\gigab\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\cmake\data\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\gigab\Project-Euler\.venv\Lib\site-packages\cmake\data\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -185,6 +185,58 @@ problem_0005\fast:
 .PHONY : problem_0005\fast
 
 #=============================================================================
+# Target rules for targets named problem_0008
+
+# Build rule for target.
+problem_0008: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) problem_0008
+.PHONY : problem_0008
+
+# fast build rule for target.
+problem_0008\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0008.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0008.dir\build
+.PHONY : problem_0008\fast
+
+#=============================================================================
+# Target rules for targets named problem_0031
+
+# Build rule for target.
+problem_0031: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) problem_0031
+.PHONY : problem_0031
+
+# fast build rule for target.
+problem_0031\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0031.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0031.dir\build
+.PHONY : problem_0031\fast
+
+#=============================================================================
+# Target rules for targets named problem_0039
+
+# Build rule for target.
+problem_0039: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) problem_0039
+.PHONY : problem_0039
+
+# fast build rule for target.
+problem_0039\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0039.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0039.dir\build
+.PHONY : problem_0039\fast
+
+#=============================================================================
+# Target rules for targets named problem_0077
+
+# Build rule for target.
+problem_0077: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) problem_0077
+.PHONY : problem_0077
+
+# fast build rule for target.
+problem_0077\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0077.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0077.dir\build
+.PHONY : problem_0077\fast
+
+#=============================================================================
 # Target rules for targets named problem_0081
 
 # Build rule for target.
@@ -209,6 +261,19 @@ problem_0098: cmake_check_build_system
 problem_0098\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0098.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0098.dir\build
 .PHONY : problem_0098\fast
+
+#=============================================================================
+# Target rules for targets named problem_0895
+
+# Build rule for target.
+problem_0895: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) problem_0895
+.PHONY : problem_0895
+
+# fast build rule for target.
+problem_0895\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0895.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0895.dir\build
+.PHONY : problem_0895\fast
 
 problems\problem_0000\main.obj: problems\problem_0000\main.cpp.obj
 .PHONY : problems\problem_0000\main.obj
@@ -354,6 +419,102 @@ problems\problem_0005\main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0005.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0005.dir\problems\problem_0005\main.cpp.s
 .PHONY : problems\problem_0005\main.cpp.s
 
+problems\problem_0008\main.obj: problems\problem_0008\main.cpp.obj
+.PHONY : problems\problem_0008\main.obj
+
+# target to build an object file
+problems\problem_0008\main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0008.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0008.dir\problems\problem_0008\main.cpp.obj
+.PHONY : problems\problem_0008\main.cpp.obj
+
+problems\problem_0008\main.i: problems\problem_0008\main.cpp.i
+.PHONY : problems\problem_0008\main.i
+
+# target to preprocess a source file
+problems\problem_0008\main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0008.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0008.dir\problems\problem_0008\main.cpp.i
+.PHONY : problems\problem_0008\main.cpp.i
+
+problems\problem_0008\main.s: problems\problem_0008\main.cpp.s
+.PHONY : problems\problem_0008\main.s
+
+# target to generate assembly for a file
+problems\problem_0008\main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0008.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0008.dir\problems\problem_0008\main.cpp.s
+.PHONY : problems\problem_0008\main.cpp.s
+
+problems\problem_0031\main.obj: problems\problem_0031\main.cpp.obj
+.PHONY : problems\problem_0031\main.obj
+
+# target to build an object file
+problems\problem_0031\main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0031.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0031.dir\problems\problem_0031\main.cpp.obj
+.PHONY : problems\problem_0031\main.cpp.obj
+
+problems\problem_0031\main.i: problems\problem_0031\main.cpp.i
+.PHONY : problems\problem_0031\main.i
+
+# target to preprocess a source file
+problems\problem_0031\main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0031.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0031.dir\problems\problem_0031\main.cpp.i
+.PHONY : problems\problem_0031\main.cpp.i
+
+problems\problem_0031\main.s: problems\problem_0031\main.cpp.s
+.PHONY : problems\problem_0031\main.s
+
+# target to generate assembly for a file
+problems\problem_0031\main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0031.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0031.dir\problems\problem_0031\main.cpp.s
+.PHONY : problems\problem_0031\main.cpp.s
+
+problems\problem_0039\main.obj: problems\problem_0039\main.cpp.obj
+.PHONY : problems\problem_0039\main.obj
+
+# target to build an object file
+problems\problem_0039\main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0039.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0039.dir\problems\problem_0039\main.cpp.obj
+.PHONY : problems\problem_0039\main.cpp.obj
+
+problems\problem_0039\main.i: problems\problem_0039\main.cpp.i
+.PHONY : problems\problem_0039\main.i
+
+# target to preprocess a source file
+problems\problem_0039\main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0039.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0039.dir\problems\problem_0039\main.cpp.i
+.PHONY : problems\problem_0039\main.cpp.i
+
+problems\problem_0039\main.s: problems\problem_0039\main.cpp.s
+.PHONY : problems\problem_0039\main.s
+
+# target to generate assembly for a file
+problems\problem_0039\main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0039.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0039.dir\problems\problem_0039\main.cpp.s
+.PHONY : problems\problem_0039\main.cpp.s
+
+problems\problem_0077\main.obj: problems\problem_0077\main.cpp.obj
+.PHONY : problems\problem_0077\main.obj
+
+# target to build an object file
+problems\problem_0077\main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0077.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0077.dir\problems\problem_0077\main.cpp.obj
+.PHONY : problems\problem_0077\main.cpp.obj
+
+problems\problem_0077\main.i: problems\problem_0077\main.cpp.i
+.PHONY : problems\problem_0077\main.i
+
+# target to preprocess a source file
+problems\problem_0077\main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0077.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0077.dir\problems\problem_0077\main.cpp.i
+.PHONY : problems\problem_0077\main.cpp.i
+
+problems\problem_0077\main.s: problems\problem_0077\main.cpp.s
+.PHONY : problems\problem_0077\main.s
+
+# target to generate assembly for a file
+problems\problem_0077\main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0077.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0077.dir\problems\problem_0077\main.cpp.s
+.PHONY : problems\problem_0077\main.cpp.s
+
 problems\problem_0081\main.obj: problems\problem_0081\main.cpp.obj
 .PHONY : problems\problem_0081\main.obj
 
@@ -402,6 +563,30 @@ problems\problem_0098\main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0098.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0098.dir\problems\problem_0098\main.cpp.s
 .PHONY : problems\problem_0098\main.cpp.s
 
+problems\problem_0895\main.obj: problems\problem_0895\main.cpp.obj
+.PHONY : problems\problem_0895\main.obj
+
+# target to build an object file
+problems\problem_0895\main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0895.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0895.dir\problems\problem_0895\main.cpp.obj
+.PHONY : problems\problem_0895\main.cpp.obj
+
+problems\problem_0895\main.i: problems\problem_0895\main.cpp.i
+.PHONY : problems\problem_0895\main.i
+
+# target to preprocess a source file
+problems\problem_0895\main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0895.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0895.dir\problems\problem_0895\main.cpp.i
+.PHONY : problems\problem_0895\main.cpp.i
+
+problems\problem_0895\main.s: problems\problem_0895\main.cpp.s
+.PHONY : problems\problem_0895\main.s
+
+# target to generate assembly for a file
+problems\problem_0895\main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\problem_0895.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\problem_0895.dir\problems\problem_0895\main.cpp.s
+.PHONY : problems\problem_0895\main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -416,8 +601,13 @@ help:
 	@echo ... problem_0003
 	@echo ... problem_0004
 	@echo ... problem_0005
+	@echo ... problem_0008
+	@echo ... problem_0031
+	@echo ... problem_0039
+	@echo ... problem_0077
 	@echo ... problem_0081
 	@echo ... problem_0098
+	@echo ... problem_0895
 	@echo ... problems/problem_0000/main.obj
 	@echo ... problems/problem_0000/main.i
 	@echo ... problems/problem_0000/main.s
@@ -436,12 +626,27 @@ help:
 	@echo ... problems/problem_0005/main.obj
 	@echo ... problems/problem_0005/main.i
 	@echo ... problems/problem_0005/main.s
+	@echo ... problems/problem_0008/main.obj
+	@echo ... problems/problem_0008/main.i
+	@echo ... problems/problem_0008/main.s
+	@echo ... problems/problem_0031/main.obj
+	@echo ... problems/problem_0031/main.i
+	@echo ... problems/problem_0031/main.s
+	@echo ... problems/problem_0039/main.obj
+	@echo ... problems/problem_0039/main.i
+	@echo ... problems/problem_0039/main.s
+	@echo ... problems/problem_0077/main.obj
+	@echo ... problems/problem_0077/main.i
+	@echo ... problems/problem_0077/main.s
 	@echo ... problems/problem_0081/main.obj
 	@echo ... problems/problem_0081/main.i
 	@echo ... problems/problem_0081/main.s
 	@echo ... problems/problem_0098/main.obj
 	@echo ... problems/problem_0098/main.i
 	@echo ... problems/problem_0098/main.s
+	@echo ... problems/problem_0895/main.obj
+	@echo ... problems/problem_0895/main.i
+	@echo ... problems/problem_0895/main.s
 .PHONY : help
 
 

@@ -35,8 +35,13 @@ set(OLD_GLOB
   "C:/Users/gigab/Project-Euler/cpp/problems/problem_0003/main.cpp"
   "C:/Users/gigab/Project-Euler/cpp/problems/problem_0004/main.cpp"
   "C:/Users/gigab/Project-Euler/cpp/problems/problem_0005/main.cpp"
+  "C:/Users/gigab/Project-Euler/cpp/problems/problem_0008/main.cpp"
+  "C:/Users/gigab/Project-Euler/cpp/problems/problem_0031/main.cpp"
+  "C:/Users/gigab/Project-Euler/cpp/problems/problem_0039/main.cpp"
+  "C:/Users/gigab/Project-Euler/cpp/problems/problem_0077/main.cpp"
   "C:/Users/gigab/Project-Euler/cpp/problems/problem_0081/main.cpp"
   "C:/Users/gigab/Project-Euler/cpp/problems/problem_0098/main.cpp"
+  "C:/Users/gigab/Project-Euler/cpp/problems/problem_0895/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
